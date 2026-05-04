@@ -425,5 +425,7 @@ export const en: Translations = {
   theme: {
     title: "Theme",
     switchTheme: "Switch theme",
+    switchToLight: "Switch to light",
+    switchToDark: "Switch to dark",
   },
 };

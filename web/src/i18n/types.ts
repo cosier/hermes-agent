@@ -432,5 +432,7 @@ export interface Translations {
   theme: {
     title: string;
     switchTheme: string;
+    switchToLight: string;
+    switchToDark: string;
   };
 }

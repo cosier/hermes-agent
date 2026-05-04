@@ -69,6 +69,7 @@ import PluginsPage from "@/pages/PluginsPage";
 import ChatPage from "@/pages/ChatPage";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { ThemeSwitcher } from "@/components/ThemeSwitcher";
+import { DarkModeToggle } from "@/components/DarkModeToggle";
 import { useI18n } from "@/i18n";
 import type { Translations } from "@/i18n/types";
 import { PluginPage, PluginSlot, usePlugins } from "@/plugins";
@@ -557,6 +558,7 @@ export default function App() {
             >
               <div className="flex min-w-0 items-center gap-2">
                 <PluginSlot name="header-right" />
+                <DarkModeToggle />
                 <ThemeSwitcher dropUp />
                 <LanguageSwitcher />
               </div>

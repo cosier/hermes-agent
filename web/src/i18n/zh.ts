@@ -420,5 +420,7 @@ export const zh: Translations = {
   theme: {
     title: "主题",
     switchTheme: "切换主题",
+    switchToLight: "切换亮色",
+    switchToDark: "切换暗色",
   },
 };
